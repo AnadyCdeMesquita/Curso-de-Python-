@@ -22,4 +22,23 @@
 
 # print(f'O valor final do produto é {valor_final: .2f}, com desconto de {desconto: .2f}.')
 
-#exercicio 13
+#exercicio 4
+
+# salario = float(input('Qual o valor do seu salário? \n'))
+# aumento_salario = salario + (salario* 0.15)
+# print(f'O seu novo salario será de R$ {aumento_salario: .2f}')
+
+#exercício 5
+
+# celsius = float(input('Qual a temperatura em grau Celsius? \n'))
+# formula = (celsius * 9/5) + 32
+# print(f'A temperatura equivale a {formula: .1f} ºF.')
+
+#exercicio 6
+# km = int(input('Qual a quantidade de km rodado por dia? \n'))
+# dias = int(input('Qual a quantidade de dias o carro foi alugado? \n'))
+# valor_dias = dias * 60
+# valor_km = km * 0.15
+# valor_pagar = valor_dias + valor_km
+
+# print(f'O valor  total a pagar é R$ {valor_pagar: .2f}, foram {km} km rodados, totalizando um valor de R$ {valor_km: .2f}. Foram {dias} dias de aluguel, totalizando R${valor_dias: .2f}.')
