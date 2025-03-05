@@ -69,13 +69,13 @@
 #   print(f'O aumento do seu salário foi de {(salario * 0.15): .2f} e passou a ser {aumento2: .2f}.')
 
 #exercicio 9
-r1 = float(input('digite um lado do triangulo? \n'))
-r2 = float(input('digite um lado do triangulo? \n'))
-r3 = float(input('digite um lado do triangulo? \n'))
-if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
-  print(f'Forma um triângulo perfeito.' )
-else:
-  print(f'Não forma um triângulo perfeito.' )
+# r1 = float(input('digite um lado do triangulo? \n'))
+# r2 = float(input('digite um lado do triangulo? \n'))
+# r3 = float(input('digite um lado do triangulo? \n'))
+# if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
+#   print(f'Forma um triângulo perfeito.' )
+# else:
+#   print(f'Não forma um triângulo perfeito.' )
   
   
 
