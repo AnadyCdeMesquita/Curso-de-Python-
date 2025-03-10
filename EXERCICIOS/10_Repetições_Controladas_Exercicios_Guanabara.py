@@ -70,3 +70,29 @@
 # print(f'Quantidade de números {cont} pares no intervalo.')
 # print(f'A soma dos número são {soma}.')
   
+#EXERCICIO 4
+# print('***' * 20)
+# print('10 TERMOS DE UMA PA')
+# print('***' * 20)
+
+# primeiro_termo= int(input('Digite o primeiro_termo: \n'))
+# razao= int(input('Digite a razão: \n'))
+# print(primeiro_termo)
+# print(razao)
+# for i in range(primeiro_termo, 20, razao):
+#   print(i, end='->')
+# print('ACABOU')
+
+#EXERCICIO 5 51
+
+number = int(input('Numero: '))
+for i in range(1, number):
+  if number % i != 0:
+    print(f'O número primo')
+  else:
+    print(f'{number}', end = '')
+  
+
+  
+  
+    
