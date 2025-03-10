@@ -83,15 +83,104 @@
 #   print(i, end='->')
 # print('ACABOU')
 
-#EXERCICIO 5 51
+#EXERCICIO 5 
 
-number = int(input('Numero: '))
-for i in range(1, number):
-  if number % i != 0:
-    print(f'O número primo')
-  else:
-    print(f'{number}', end = '')
+# number = int(input('Numero: '))
+# total = 0
+# for i in range(1, number + 1):
+#   if number % i == 0:
+#     total +=1
+#     print('\033[31m {i}', end='')
+# print(f'O {number} foi divisível por {total} vezes.')
+
+#exercicio 6 
+# frase = str(input('Digite a palavra: \n')).strip().upper()
+# palavras = frase.split()
+# junto = ''.join(palavras)
+# inverso = ''
+# # print(junto[::-1]) # reverter ao contrário uma string
+# for letra in range(len(junto)-1, -1, -1):
+#   inverso += junto[letra] 
+# if inverso == junto:
+#   print('É um palíndromo')
+# else:
+#   print('Não um palíndromo')
   
+
+# nome = 'anady carvalho de mesquita'
+# divisão = nome.split()
+# print(divisão)
+# print(f'Seu primeiro nome é {divisão[0].capitalize()} e o último é {divisão[-1].capitalize()}.')
+# print(f'Bem-vinda, Senhora {divisão[0].capitalize()} {divisão[-1].capitalize()}.')
+
+
+#EXERCICIO 7
+
+# import datetime
+# cont = 0
+# for pessoa in range(1, 8):
+#   ano_nascimento = int(input(f'Qual a data do nascimento da {pessoa} pessoa? \n'))
+#   idade = datetime.date.today().year - ano_nascimento
+#   if idade >= 18:
+#     cont += 1
+#     print('Vc é de maior')
+#   else:
+#    print('Vc é de menor')
+   
+# print(f'A quantidade de pessoas maiores é {cont}')
+# print(f'A quantidade de pessoas menores é {7- cont } ')
+# ***************************************************
+# peso = []
+# for pessoa in range(1, 6):
+#     peso.append(float(input(f'Qual o peso da {pessoa}ª pessoa? \n')))
+
+# print(peso)
+# print(f'O peso máximo foi:{max(peso)}. O peso mínimo foi {min(peso)}')
+  #**********************************************************
+maior = 0
+menor = 0
+for p in range(1, 6):
+  peso = float(input(f'Qual o peso da {p}ª pessoa? \n'))
+  if p == 1:
+    peso = maior
+    peso = menor
+  else:
+    if peso > maior:
+      maior = peso
+    if peso < menor:
+      menor = peso
+    
+print(f'O maior peso é {maior}')
+print(f'O menor peso é {menor}')
+
+#EXERCICIO 8
+
+# media = 0
+# maioridadehomem = 0
+# nomevelho = ''
+# totmulher = 0
+# for p in range(1, 5):
+#   print(f'{"****" * 10} {p} pessoa {"****" * 10}')
+#   nome = str(input(f'NOME: \n')).strip()
+#   idade = int(input(f'IDADE: \n'))
+#   sexo = str(input(f'SEXO [M/F]: \n')).strip()
+#   media += idade
+#   media1 = media / 4
+#   if p==1 and sexo in 'Mm':
+#     maioridadehomem = idade
+#     nomevelho = nome
+#   if sexo in 'Mn' and idade > maioridadehomem[p]:
+#     maioridadehomem[p] = idade
+#     nomevelho = nome[p]
+#   if sexo in 'Ff' and idade < 20:
+#     totmulher +=1
+  
+  
+  
+# print(f'A média de idade é {media1}')
+# print(f'O homem mais velho tem {maioridadehomem} e se chama {nomevelho}. ')
+# print(f'Ao todo são o total de {totmulher} menor que 20.')
+
 
   
   
