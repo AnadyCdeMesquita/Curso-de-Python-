@@ -25,17 +25,17 @@ texto = 'hello world'
 #     consoante.append(char)
 #     print(consoante)
   
-# n = int(input('Digite um numero: \n'))
+n = int(input('Digite um numero: \n'))
 
-# if n < 0:
-#   print('Número inválido')
-# else:
-#   plus = 1
-#   for n in range(n, 0, -1):
-#     print(n)
-#     if n > 0:
-#       plus *= n
-#   print(f'O fatorial de {n} é {plus}.')
+if n < 0:
+  print('Número inválido')
+else:
+  plus = 1
+  for n in range(n, 0, -1):
+    print(n)
+    if n > 0:
+      plus *= n
+  print(f'O fatorial de {n} é {plus}.')
 
 # n = int(input('Digite um numero: \n'))
 # for n in range(10):
