@@ -134,33 +134,26 @@
 # print(f'Quantidade de números digitados foi {cont}.')
 
 #EXERCICIO 9
-opcao = 'S'
-maior = 0
-menor = 0
-cont = 0
-soma = 0
-while opcao in 'sS':
-  n = int(input('Digite Números:\n'))
-  if cont == 1:
-    maior = menor = n
-  else:
-    if n > maior:
-      maior = n
-    if n < menor:
-      menor = n
-  opcao = str(input('Deseja continuar? s/n \n')).strip().upper()
-  soma += n
-  cont+=1
-  media = soma / 3
-print(f'Vc digitou {cont} e a média é {media}.')
-print(f'O número maior é {maior}')
-print(f'O número maior é {menor}')
+# opcao = 'S'
+# maior = 0
+# menor = 0
+# cont = 0
+# soma = 0
+# while opcao in 'sS':
+#   n = int(input('Digite Números:\n'))
+#   if cont == 1:
+#     maior = menor = n
+#   else:
+#     if n > maior:
+#       maior = n
+#     if n < menor:
+#       menor = n
+#   opcao = str(input('Deseja continuar? s/n \n')).strip().upper()
+#   soma += n
+#   cont+=1
+#   media = soma / 3
+# print(f'Vc digitou {cont} e a média é {media}.')
+# print(f'O número maior é {maior}')
+# print(f'O número maior é {menor}')
   
-  
-  
-  
-  
-
-
-
 
