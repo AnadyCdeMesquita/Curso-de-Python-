@@ -47,8 +47,17 @@
 # teste = list()
 # for i in range(0, 5):
 #   teste.append(int(input('Digite um valor:\n')))
-  
-  
 
+# print(teste)
+  
+# teste = [0, 14, 9 , 9 , 6]
 # for p, v in enumerate(teste):
 #   print(f'Os índices são {p} e os valores são {v}')
+
+#CRIAÇÃO DE 2 LISTAS#
+a = [1, 2, 3, 4, 5]
+b = a # dessa forma cria uma ligação, tudo que muda em uma, muda na outra
+b[1] = 9
+print(b)
+print(a)
+b = a [:] #dessa forma, a alteração que fizer em uma, não alterará a outra
