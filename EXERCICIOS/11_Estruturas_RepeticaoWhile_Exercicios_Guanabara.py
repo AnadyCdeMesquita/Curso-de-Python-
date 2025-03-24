@@ -73,11 +73,11 @@
 # print(factorial(valor1))
 
 #EXERCICIO 4  ### fatorial 
-# n = int(input('Digite um número? \n'))
-# plus = 1
-# for i in range (n, 0, -1):
-#       plus *= i     
-# print(plus)     
+n = int(input('Digite um número? \n'))
+plus = 1
+for i in range (n, 0, -1):
+      plus *= i     
+print(plus)     
 
 #EXERCICIO 5
 # primeiro = int(input('Digite o primeiro termo:\n'))
