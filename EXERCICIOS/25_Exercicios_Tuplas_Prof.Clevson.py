@@ -37,12 +37,14 @@ resumao = resumo_vendas(100, 50)
 print(f'A soma total de celulares vendidos {resumao}.')
 
 #EXERCÍCIO 3
-vendas_semana = [(70,65), (80,82), (90,88)]
+# vendas_semana = [(70,65), (80,82), (90,88)]
 
-for a, b in vendas_semana:
-  print(f"A venda de Smartphone: {a} e a venda de SmartWatch: {b}")
+# for a, b in vendas_semana:
+#   print(f"A venda de Smartphone: {a} e a venda de SmartWatch: {b}")
   
 vendas_semana = [(70,65), (80,82), (90,88)]
+tupla = tuple(vendas_semana)
+print(tupla)
 vendasA= 70
 vendasB = 65
 vendasA,vendasB  = vendasB, vendasA
