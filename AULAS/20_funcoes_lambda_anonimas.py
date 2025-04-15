@@ -22,5 +22,5 @@
 # print(teste_lambda(-2))
 
 pessoas = [('João', 35), ('Allan', 25),('Pedro', 40)]
-ordem_pessoas = sorted(pessoas, key=lambda x: x[0])
+ordem_pessoas = sorted(pessoas, key=lambda y: y[1])
 print(ordem_pessoas)
